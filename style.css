@@ -1,0 +1,23 @@
+#countable{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Halvetica;
+}
+#buttonsection{
+    text-align: center;  
+}
+.buttons{
+    padding: 10px 30px;
+    border-radius: 25%;
+    border-color: blue;
+    background-color: yellow;
+    font-size: 1.5em;
+    font-style: italic; 
+    cursor: pointer;
+    transition: background-color 0.25s;
+    
+}
+.buttons:hover{
+    background-color: hsl(60, 55%, 29%);
+}
